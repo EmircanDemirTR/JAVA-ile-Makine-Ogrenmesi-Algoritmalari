@@ -42,7 +42,7 @@ public class SmileInternettenOkuma {
 
             double[][] X = ozellikler.toArray(new double[0][]);
             System.out.println("Ornek: " + X.length + ", Ozellik: " + X[0].length);
-            System.out.printf("Ilk Ornek: [%.1f, %.1f, %.1f, %.1f] -> %s", X[0][0], X[0][1], X[0][2], X[0][3], etiketler.get(0));
+            System.out.printf("Ilk Ornek: [%.1f, %.1f, %.1f, %.1f] -> %s%n", X[0][0], X[0][1], X[0][2], X[0][3], etiketler.get(0));
         } catch (Exception e) {
             System.out.println("Hata: " + e.getMessage());
         }
