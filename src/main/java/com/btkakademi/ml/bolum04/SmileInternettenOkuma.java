@@ -76,7 +76,7 @@ public class SmileInternettenOkuma {
                 }
 
                 ozellikler.add(oz);
-                kaliteler.add(Integer.parseInt(p[11]));
+                kaliteler.add((int) Double.parseDouble(p[11]));
 
             }
 
