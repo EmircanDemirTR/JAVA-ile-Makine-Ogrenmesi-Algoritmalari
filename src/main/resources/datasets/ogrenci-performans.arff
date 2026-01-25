@@ -1,18 +1,3 @@
-% =====================================================
-% Öğrenci Performansı Veri Seti
-% Basit Lineer Regresyon için (Tek Değişken)
-% =====================================================
-% Senaryo: Haftalık çalışma saati ile sınav notu arasındaki ilişki
-% Hipotez: Daha fazla çalışma → Daha yüksek not
-% =====================================================
-% Özellikler:
-%   - calisma_saati: Haftalık çalışma süresi (saat)
-%   - sinav_notu: Final sınav notu (0-100 arası)
-% =====================================================
-% Kaynak: Eğitim amaçlı sentetik veri
-% Örnek Sayısı: 30
-% =====================================================
-
 @RELATION ogrenci-performans
 
 @ATTRIBUTE calisma_saati NUMERIC
