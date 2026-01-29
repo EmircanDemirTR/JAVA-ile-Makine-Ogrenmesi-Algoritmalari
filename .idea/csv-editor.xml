@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\src\main\resources\datasets\auto-mpg.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\resources\datasets\breast-cancer.csv">
           <value>
             <Attribute>
@@ -24,6 +31,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\resources\datasets\iris.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\resources\datasets\mushroom.csv">
           <value>
             <Attribute>
@@ -31,7 +45,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\resources\datasets\segment.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\resources\datasets\wine.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\datasets\winequality-red.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
