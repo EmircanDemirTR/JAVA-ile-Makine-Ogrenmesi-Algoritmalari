@@ -1,78 +1,6 @@
-% 1. Title: Image Segmentation data
-% 
-% 2. Source Information
-%    -- Creators: Vision Group, University of Massachusetts
-%    -- Donor: Vision Group (Carla Brodley, brodley@cs.umass.edu)
-%    -- Date: November, 1990
-%  
-% 3. Past Usage: None yet published
-% 
-% 4. Relevant Information:
-% 
-%    The instances were drawn randomly from a database of 7 outdoor 
-%    images.  The images were handsegmented to create a classification
-%    for every pixel.  
-% 
-%    Each instance is a 3x3 region.
-% 
-% 5. Number of Instances: Training data: 210  Test data: 2100
-% 
-% 6. Number of Attributes: 19 continuous attributes
-% 
-% 7. Attribute Information:
-% 
-%     1.  region-centroid-col:  the column of the center pixel of the region.
-%     2.  region-centroid-row:  the row of the center pixel of the region.
-%     3.  region-pixel-count:  the number of pixels in a region = 9.
-%     4.  short-line-density-5:  the results of a line extractoin algorithm that 
-%          counts how many lines of length 5 (any orientation) with
-%          low contrast, less than or equal to 5, go through the region.
-%     5.  short-line-density-2:  same as short-line-density-5 but counts lines
-%          of high contrast, greater than 5.
-%     6.  vedge-mean:  measure the contrast of horizontally
-%          adjacent pixels in the region.  There are 6, the mean and 
-%          standard deviation are given.  This attribute is used as
-%         a vertical edge detector.
-%     7.  vegde-sd:  (see 6)
-%     8.  hedge-mean:  measures the contrast of vertically adjacent
-%           pixels. Used for horizontal line detection. 
-%     9.  hedge-sd: (see 8).
-%     10. intensity-mean:  the average over the region of (R + G + B)/3
-%     11. rawred-mean: the average over the region of the R value.
-%     12. rawblue-mean: the average over the region of the B value.
-%     13. rawgreen-mean: the average over the region of the G value.
-%     14. exred-mean: measure the excess red:  (2R - (G + B))
-%     15. exblue-mean: measure the excess blue:  (2B - (G + R))
-%     16. exgreen-mean: measure the excess green:  (2G - (R + B))
-%     17. value-mean:  3-d nonlinear transformation
-%          of RGB. (Algorithm can be found in Foley and VanDam, Fundamentals
-%          of Interactive Computer Graphics)
-%     18. saturatoin-mean:  (see 17)
-%     19. hue-mean:  (see 17)
-% 
-% 8. Missing Attribute Values: None
-% 
-% 9. Class Distribution: 
-% 
-%    Classes:  brickface, sky, foliage, cement, window, path, grass.
-% 
-%    30 instances per class for training data.
-%    300 instances per class for test data.
-% 
-%
-%
-%
-%
-% Relabeled values in attribute class
-%    From: 1                       To: brickface           
-%    From: 2                       To: sky                 
-%    From: 3                       To: foliage             
-%    From: 4                       To: cement              
-%    From: 5                       To: window              
-%    From: 6                       To: path                
-%    From: 7                       To: grass               
-%
+
 @relation segment
+
 @attribute region-centroid-col real
 @attribute region-centroid-row real
 @attribute region-pixel-count real
@@ -93,6 +21,7 @@
 @attribute saturation-mean real
 @attribute hue-mean real
 @attribute class { brickface, sky, foliage, cement, window, path, grass}
+
 @data
 218,178,9,0.111111,0,0.833333,0.547722,1.11111,0.544331,59.6296,52.4444,75.2222,51.2222,-21.5556,46.7778,-25.2222,75.2222,0.318996,-2.04055,path
 113,130,9,0,0,0.277778,0.250924,0.333333,0.365148,0.888889,0,2.55556,0.111111,-2.66667,5,-2.33333,2.55556,1,-2.12325,foliage
