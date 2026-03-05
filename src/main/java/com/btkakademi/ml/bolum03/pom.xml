@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+  <!-- Proje Bilgileri -->
+  <artifactId>JavaML-Algoritmalari</artifactId>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <encoding>UTF-8</encoding>
+          <source>25</source>
+          <target>25</target>
+        </configuration>
+        <groupId>org.apache.maven.plugins</groupId>
+        <version>3.13.0</version>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+
+    <!-- SMILE: Modern ML Kütüphanesi -->
+    <dependency>
+      <artifactId>smile-core</artifactId>
+      <groupId>com.github.haifengl</groupId>
+      <version>5.1.0</version>
+    </dependency>
+
+    <dependency>
+      <artifactId>smile-plot</artifactId>
+      <groupId>com.github.haifengl</groupId>
+      <version>5.1.0</version>
+    </dependency>
+
+    <!-- WEKA: Klasik ML Kütüphanesi -->
+    <dependency>
+      <artifactId>weka-stable</artifactId>
+      <groupId>nz.ac.waikato.cms.weka</groupId>
+      <version>3.8.6</version>
+    </dependency>
+
+    <!-- SLF4J: Loglama -->
+    <dependency>
+      <artifactId>slf4j-simple</artifactId>
+      <groupId>org.slf4j</groupId>
+      <version>2.0.16</version>
+    </dependency>
+
+  </dependencies>
+  <description>BTK Akademi - Java ML Algoritmalari Egitimi</description>
+  <groupId>com.btkakademi</groupId>
+
+  <modelVersion>4.0.0</modelVersion>
+  <name>Java ile Makine Ogrenmesi Algoritmalari</name>
+
+
+  <!-- OZELLİKLER -->
+  <packaging>jar</packaging>
+
+  <properties>
+    <maven.compiler.source>25</maven.compiler.source>
+    <maven.compiler.target>25</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <!-- BUİLD AYARLARI -->
+  <version>1.0</version>
+
+</project>

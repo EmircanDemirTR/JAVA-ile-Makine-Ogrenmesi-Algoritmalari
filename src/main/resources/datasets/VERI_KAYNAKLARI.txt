@@ -1,0 +1,207 @@
+================================================================================
+               VERI SETLERI KAYNAK BILGILERI VE LISANS DETAYLARI
+================================================================================
+
+Bu dosya, Bolum 15 ve Bolum 16 projelerinde kullanilan veri setlerinin
+kaynaklarini, lisanslarini ve indirme linklerini icerir.
+
+Son Guncelleme: 2026-02-01
+
+================================================================================
+  PROJE 1: DUNYA ULKELERI GELISMISLIK KUMELEME ANALIZI (Bolum 15)
+================================================================================
+
+Veri Seti: dunya-ulkeleri-gostergeler.csv
+Satir/Sutun: ~170 ulke x 16 sutun
+
+KAYNAK:
+  World Bank - World Development Indicators (WDI)
+
+RESMI LINKLER:
+  - DataBank (Ana Sayfa):
+    https://databank.worldbank.org/source/world-development-indicators
+
+  - DataBank (Gosterge Secimi):
+    https://databank.worldbank.org/source/world-development-indicators#
+
+  - World Bank Open Data:
+    https://data.worldbank.org/
+
+  - WDI API Dokumantasyonu:
+    https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api
+
+KAGGLE LINKI:
+  https://www.kaggle.com/datasets/theworldbank/world-development-indicators
+
+LISANS:
+  Creative Commons Attribution 4.0 International (CC BY 4.0)
+  https://creativecommons.org/licenses/by/4.0/
+
+  Bu lisans, ticari veya ticari olmayan amaclarla verilerin kopyalanmasina,
+  dagitilmasina, gosterilmesine ve turetilmis eserler olusturulmasina izin
+  verir. Tek kosul, kaynagin belirtilmesidir (atif).
+
+ATIF FORMATI:
+  World Bank. (2026). World Development Indicators.
+  Washington, D.C.: The World Bank.
+  https://databank.worldbank.org/source/world-development-indicators
+  License: CC BY 4.0
+
+KULLANILAN GOSTERGELER VE WDI KODLARI:
+  +---------------------------+----------------------+---------------------------+
+  | Gosterge                  | WDI Kodu             | Aciklama                  |
+  +---------------------------+----------------------+---------------------------+
+  | Nufus                     | SP.POP.TOTL          | Toplam nufus              |
+  | GSYIH Kisi Basi (PPP)    | NY.GDP.PCAP.PP.CD    | Satin alma gucu paritesi  |
+  | Buyume Orani              | NY.GDP.MKTP.KD.ZG    | Yillik GDP buyume (%)     |
+  | Issizlik                  | SL.UEM.TOTL.ZS       | Issizlik orani (%)        |
+  | Enflasyon                 | FP.CPI.TOTL.ZG       | Tuketici fiyat endeksi (%) |
+  | Yasam Beklentisi          | SP.DYN.LE00.IN       | Dogumda yasam beklentisi  |
+  | Bebek Olum Hizi           | SP.DYN.IMRT.IN       | 1000 canli dogumda        |
+  | Okullasma Orani           | SE.SEC.ENRR          | Ortaogretim brut orani    |
+  | Internet Erisim           | IT.NET.USER.ZS       | Internet kullanicisi (%)  |
+  | CO2 Emisyon (Kisi Basi)   | EN.ATM.CO2E.PC       | Metrik ton / kisi         |
+  | Saglik Harcamasi          | SH.XPD.CHEX.GD.ZS   | GSYIH'nin yuzdesi         |
+  | Tarim Payi                | NV.AGR.TOTL.ZS       | GSYIH'deki tarim payi (%) |
+  | Sanayi Payi               | NV.IND.TOTL.ZS       | GSYIH'deki sanayi payi (%)|
+  +---------------------------+----------------------+---------------------------+
+
+VERI YILI: 2022-2024 (en guncel mevcut yil)
+
+GOSTERGE DETAY LINKLERI:
+  - GDP per capita (PPP):
+    https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+  - Life expectancy:
+    https://data.worldbank.org/indicator/SP.DYN.LE00.IN
+  - Infant mortality:
+    https://data.worldbank.org/indicator/SP.DYN.IMRT.IN
+  - Internet users:
+    https://data.worldbank.org/indicator/IT.NET.USER.ZS
+  - CO2 emissions:
+    https://data.worldbank.org/indicator/EN.ATM.CO2E.PC
+  - School enrollment:
+    https://data.worldbank.org/indicator/SE.SEC.ENRR
+  - Health expenditure:
+    https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS
+  - Unemployment:
+    https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+  - GDP growth:
+    https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG
+  - Inflation:
+    https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG
+  - Population:
+    https://data.worldbank.org/indicator/SP.POP.TOTL
+
+
+================================================================================
+  PROJE 2: KALP HASTALIGI RISK TAHMIN SISTEMI (Bolum 16)
+================================================================================
+
+Veri Seti: kalp-hastaligi.csv
+Satir/Sutun: 918 kayit x 12 sutun
+
+BIRINCIL KAYNAK:
+  fedesoriano. (September 2021). Heart Failure Prediction Dataset.
+  Kaggle: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+
+ORIJINAL KAYNAKLAR (UCI Machine Learning Repository):
+  - UCI Heart Disease Dataset:
+    https://archive.ics.uci.edu/dataset/45/heart+disease
+
+  - Cleveland Clinic Foundation:
+    Robert Detrano, M.D., Ph.D.
+
+  - Hungarian Institute of Cardiology, Budapest:
+    Andras Janosi, M.D.
+
+  - University Hospital, Zurich, Switzerland:
+    William Steinbrunn, M.D.
+
+  - University Hospital, Basel, Switzerland:
+    Matthias Pfisterer, M.D.
+
+  - V.A. Medical Center, Long Beach, California:
+    Robert Detrano, M.D., Ph.D.
+
+KAGGLE LINKI:
+  https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+
+UCI ML REPOSITORY LINKI:
+  https://archive.ics.uci.edu/dataset/45/heart+disease
+
+LISANS:
+  Open Database License (ODbL) v1.0
+  https://opendatacommons.org/licenses/odbl/1-0/
+
+  Bu lisans, veritabaninin paylasimina, uyarlanmasina ve kullanilmasina
+  izin verir. Turetilmis eserlerin ayni lisansla dagitilmasi ve kaynagin
+  belirtilmesi zorunludur.
+
+ATIF FORMATI:
+  fedesoriano. (September 2021). Heart Failure Prediction Dataset.
+  Retrieved from https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+
+  Orijinal veri setleri icin:
+  Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1988).
+  Heart Disease. UCI Machine Learning Repository.
+  https://doi.org/10.24432/C52P4X
+
+VERI SETI OZELLIKLERI:
+  +---------------------------+----------+-------------------------------------+
+  | Ozellik                   | Tip      | Aciklama                            |
+  +---------------------------+----------+-------------------------------------+
+  | Yas                       | Sayisal  | Hasta yasi (28-77)                  |
+  | Cinsiyet                  | Kategorik| E=Erkek, K=Kadin                    |
+  | Gogus_Agrisi_Tipi         | Kategorik| TA, ATA, NAP, ASY                   |
+  | Dinlenme_Kan_Basinci      | Sayisal  | Dinlenme kan basinci (mm Hg)        |
+  | Kolesterol                | Sayisal  | Serum kolesterol (mg/dl)            |
+  | Aclik_Kan_Sekeri           | Binary   | >120 mg/dl ise 1, degilse 0        |
+  | Dinlenme_EKG              | Kategorik| Normal, ST, LVH                     |
+  | Maks_Kalp_Hizi            | Sayisal  | Ulasilan maksimum kalp hizi         |
+  | Egzersiz_Angina           | Kategorik| E=Evet, H=Hayir                     |
+  | ST_Oldpeak                | Sayisal  | ST depresyon degeri                  |
+  | ST_Egim                   | Kategorik| Yukari, Duz, Asagi                  |
+  | Hedef                     | Binary   | 0=Saglikli, 1=Kalp hastaligi        |
+  +---------------------------+----------+-------------------------------------+
+
+BIRLESIM BILGISI:
+  Bu veri seti, 5 farkli kalp hastaligi veritabaninin birlesimidir:
+  1. Cleveland     - 303 kayit
+  2. Hungarian     - 294 kayit
+  3. Switzerland   - 123 kayit
+  4. Long Beach VA - 200 kayit
+  5. Statlog Heart - 270 kayit
+  Toplam: 918 benzersiz kayit (tekrarlar cikarilmistir)
+
+
+================================================================================
+  EKLENTILER VE YARDIMCI KAYNAKLAR
+================================================================================
+
+SMILE KUTUPHANESI:
+  - Resmi Dokumantasyon: https://haifengl.github.io/
+  - GitHub: https://github.com/haifengl/smile
+  - Maven: https://mvnrepository.com/artifact/com.github.haifengl/smile-core
+  - Versiyon: 5.1.0
+
+WEKA KUTUPHANESI:
+  - Resmi Sayfa: https://www.cs.waikato.ac.nz/ml/weka/
+  - GitHub: https://github.com/Waikato/weka-3.8
+  - Dokumantasyon: https://weka.sourceforge.io/doc.stable/
+  - Versiyon: 3.8.6
+
+KURS BILGILERI:
+  BTK Akademi - "Java ile Makine Ogrenmesi Algoritmalari"
+  18 saat, 104 ders, 16 bolum
+
+
+================================================================================
+  NOT
+================================================================================
+
+Bu veri setleri, egitim amaciyla kullanilmaktadir. Gercek dunya verilerine
+dayanmakta olup, bazi degerler yuvarlanmis veya basitlestirilmis olabilir.
+
+Ticari kullanimda ilgili lisans kosullarina uyulmasindan kullanici sorumludur.
+
+================================================================================
